@@ -17,7 +17,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+
+        [[UIApplication sharedApplication] setStatusBarStyle: UIStatusBarStyleLightContent];
+    
     return YES;
+}
+
+-(UIStatusBarStyle)preferredStatusBarStyle{
+    return UIStatusBarStyleLightContent;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

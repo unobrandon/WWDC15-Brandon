@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14C109" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Me_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <imageView width="136" height="136" alignment="left" image="BrandonFlat" id="Txj-BK-Hyd"/>
+                        <label width="133" height="50" alignment="left" text="Welcome" textAlignment="center" id="E7o-rn-REp">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <separator alignment="left" id="1Ap-lJ-AEm"/>
+                        <imageView width="136" height="91" alignment="left" image="DevTechHead" contentMode="scaleAspectFill" id="EoY-Ai-rZX"/>
+                        <label width="129" height="22" alignment="left" text="Dev Projects" id="hrk-cT-5fG">
+                            <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                        </label>
+                        <label width="134" height="357" alignment="left" textAlignment="center" numberOfLines="30" id="qlE-N1-86C">
+                            <string key="text">I have not put out many App on the store but I am most interested in the technology behind it. I have created many apps just to test the code out. I have one new app waiting for review called Prevent. It was made for heart clinic based in dallas to give you a estimate on how healthy your heart is. Another app on the way is an app for my college. It will be the best university app in the country. It is currently waiting for approval by the school. 
+</string>
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                        <imageView width="136" height="70" alignment="left" image="prevent" contentMode="scaleAspectFit" id="Sde-Dz-OSC"/>
+                        <imageView width="136" height="70" alignment="left" image="icond2" contentMode="scaleAspectFit" id="LW3-8W-i2m"/>
+                        <separator alignment="left" id="mWw-kF-oSz"/>
+                        <imageView width="136" height="86" alignment="left" image="SchoolHead" contentMode="scaleAspectFill" id="Ack-pA-qRn"/>
+                        <label width="136" alignment="left" text="Education" id="Ah7-s0-7sf">
+                            <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                        </label>
+                        <label width="136" height="223" alignment="left" numberOfLines="14" id="iFe-y5-68h">
+                            <string key="text">I went to school at Lakehill Preparatory School in Dallas Texas from 2nd-12th grade. Sence then I have moved to North Carolina to continue my studies at High Point University while pursuing a degree in Business Administration with a concentration in Entrepreneurship.
+</string>
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                        <separator alignment="left" id="4Sp-w7-ywd"/>
+                        <imageView width="135" height="82" alignment="left" image="ExperienceHead" contentMode="scaleAspectFill" id="vBa-St-mY4"/>
+                        <label width="134" alignment="left" text="Tech Skills" id="8y3-iK-Yp8">
+                            <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                        </label>
+                        <label width="136" height="193" alignment="left" numberOfLines="13" minimumScaleFactor="0.90000000000000002" id="fNy-AX-8HL">
+                            <string key="text">I have been learning a lot of resourceful tech skills along the way of creating iphone apps. A few including: OBjective-C, Swift, HTML, CSS, PHP, mySQL,Photoshop, Javascript, Unity 3D, Parse SDK, and Sketch 3.</string>
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                        <imageView width="136" height="58" alignment="left" image="listCode" contentMode="scaleAspectFit" id="wnv-CO-3dc"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="47" y="851.5"/>
+        </scene>
+    </scenes>
+</document>
